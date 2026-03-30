@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="font-manrope">
+      {/* header */}
       <header>
         <div className="max-w-300 mx-auto flex justify-between items-center gap-3 py-6 px-4 lg:px-0 z-10">
           <div className="flex">
@@ -63,8 +64,13 @@ function App() {
               </a>
             </li>
           </nav>
-          <div className="flex justify-between items-center gap-3">
-            <ShoppingCart />
+          <div className="flex justify-between items-center gap-4">
+            <div className="relative">
+              <p className=" absolute -top-2 left-3 bg-red-600 w-4 h-4 rounded-full flex justify-center items-center text-[9px] text-white font-bold">
+                15
+              </p>
+              <ShoppingCart />
+            </div>
             <a href="" className="text-[#101727] font-semibold">
               Login
             </a>
@@ -72,6 +78,8 @@ function App() {
           </div>
         </div>
       </header>
+
+      {/* main content */}
     </div>
   );
 }
