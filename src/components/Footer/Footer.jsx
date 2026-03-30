@@ -45,14 +45,14 @@ const Footer = () => {
                 <div className='space-y-4'>
                     <h4 className='text-[20px] font-medium'>Social Links</h4>
                     <ul className=' flex gap-4 space-y-2'>
-                        <li className='list-none w-10 h-10 bg-white rounded-full flex justify-center items-center'>
-                            <a href=""><FaInstagram className='text-black text-2xl' /></a>
+                        <li className='list-none w-8 h-8 bg-white rounded-full flex justify-center items-center'>
+                            <a href=""><FaInstagram className='text-black text-lg' /></a>
                         </li>
-                        <li className='list-none w-10 h-10 bg-white rounded-full flex justify-center items-center'>
-                            <a href=""><FaFacebook className='text-black text-2xl' /></a>
+                        <li className='list-none w-8 h-8 bg-white rounded-full flex justify-center items-center'>
+                            <a href=""><FaFacebook className='text-black text-lg' /></a>
                         </li>
-                        <li className='list-none w-10 h-10 bg-white rounded-full flex justify-center items-center'>
-                            <a href=""><FaXTwitter className='text-black text-2xl' /></a>
+                        <li className='list-none w-8 h-8 bg-white rounded-full flex justify-center items-center'>
+                            <a href=""><FaXTwitter className='text-black text-lg' /></a>
                         </li>
                     </ul>
                 </div>
