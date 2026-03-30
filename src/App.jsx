@@ -3,6 +3,9 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { IoMdRadioButtonOn } from "react-icons/io";
+import GradientButton from "./utilities/GradientButton";
+import GradientTextBtn from "./utilities/GradientTextBtn";
+import { IoPlayOutline } from "react-icons/io5";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -24,14 +27,31 @@ function App() {
         <section className="max-w-300 mx-auto px-4 lg:px-0">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
-              <div className="bg-[#e1e7ff] py-2 px-4 rounded-full">
+              <div className="bg-[#e1e7ff] py-2 px-4 rounded-full w-fit">
                 <p className="bg-transparent text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
-                  <span className="flex items-center gap-2 font-medium"><IoMdRadioButtonOn className="text-2xl text-[#4f39f6]" /> New: AI-Powered Tools Available</span>
+                  <span className="flex items-center gap-2 font-medium">
+                    <IoMdRadioButtonOn className="text-2xl text-[#4f39f6]" />{" "}
+                    New: AI-Powered Tools Available
+                  </span>
                 </p>
+              </div>
+              <h2>Supercharge Your Digital Workflow</h2>
+              <p>
+                Access premium AI tools, design assets, templates, and
+                productivity software—all in one place. Start creating faster
+                today. Explore Products
+              </p>
+              <div className="flex gap-3">
+                <GradientButton name={'Explore Products'} />
+                <GradientTextBtn icon={<IoPlayOutline className="text-[#4f39f6] text-2xl" />}  name={'Watch Demo'} />
               </div>
             </div>
             <div>
-              <img className="object-cover rounded-lg" src="https://i.ibb.co.com/rKZg2hwW/banner.png" alt="" />
+              <img
+                className="object-cover rounded-lg"
+                src="https://i.ibb.co.com/rKZg2hwW/banner.png"
+                alt=""
+              />
             </div>
           </div>
         </section>
