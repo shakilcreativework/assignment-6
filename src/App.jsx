@@ -26,7 +26,7 @@ function App() {
             </button>
             <a
               href=""
-              className="hidden md:flex bg-transparent transition-all text-3xl md:text-4xl font-bold py-0.75 text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6]"
+              className="hidden md:flex bg-transparent transition-all text-3xl md:text-4xl font-extrabold py-0.75 text-transparent bg-clip-text bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6]"
             >
               DigiTools
             </a>
@@ -36,7 +36,7 @@ function App() {
             className={`bg-gray-50 md:bg-transparent p-4 flex flex-col md:flex-row 
              ${open ? "top-7.5 delay-1000 transition ease-in-out" : "-top-60"}
              ease-in-out 
-             md:top-0 left-15 md:left-0 items-center gap-5 absolute md:relative`}
+             md:top-0 left-13 md:left-0 items-center gap-5 absolute md:relative`}
           >
             <li className="list-none">
               <a className="text-[#101727] font-semibold" href="">
