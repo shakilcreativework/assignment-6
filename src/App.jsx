@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import GradientButton from "./utilities/GradientButton";
 import { Menu, X, ShoppingCart } from "lucide-react";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -80,6 +81,14 @@ function App() {
       </header>
 
       {/* main content */}
+      <main>
+        
+      </main>
+
+      {/* footer */}
+      <footer className="bg-[#101727]">
+          <Footer />
+      </footer>
     </div>
   );
 }
