@@ -58,8 +58,8 @@ const Footer = () => {
                 </div>
             </div>
             <hr className='text-white/10' />
-            <div className='flex flex-col md:flex-row justify-start md:justify-between py-5'>
-                <span className='text-xs md:text-sm font-normal text-white/60'>© 2026 Digitools. All rights reserved.</span>
+            <div className='flex flex-col md:flex-row justify-start md:justify-between py-5 gap-5 lg:gap-4'>
+                <span className='text-xs md:text-sm font-normal text-white/60 md:text-start text-center lg:text-start'>© 2026 Digitools. All rights reserved.</span>
                 <div>
                     <ul className='flex justify-center md:justify-normal gap-4 space-y-2'>
                         <li className='list-none'><a className='text-xs md:text-sm font-normal text-white/60' href="">Features</a></li>
