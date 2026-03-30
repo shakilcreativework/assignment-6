@@ -1,0 +1,162 @@
+[
+  {
+    "id": "001",
+    "name": "Smartphone Pro X",
+    "description": "The latest smartphone with 5G connectivity and powerful AI features.",
+    "price": 999.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "popular",
+    "features": [
+      "5G connectivity",
+      "AI camera optimization",
+      "6.7-inch OLED display",
+      "128GB storage"
+    ],
+    "icon": "📱"
+  },
+  {
+    "id": "002",
+    "name": "UltraFit Smartwatch",
+    "description": "Track your health with this feature-packed smartwatch.",
+    "price": 199.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": [
+      "Heart rate monitor",
+      "Sleep tracking",
+      "GPS functionality",
+      "Water-resistant"
+    ],
+    "icon": "⌚"
+  },
+  {
+    "id": "003",
+    "name": "Gaming Laptop Elite",
+    "description": "Experience the best in gaming with this high-performance laptop.",
+    "price": 1499.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": [
+      "Intel Core i9 Processor",
+      "RTX 3080 GPU",
+      "32GB RAM",
+      "1TB SSD"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": "004",
+    "name": "EcoClean Vacuum",
+    "description": "A powerful vacuum cleaner that’s environmentally friendly.",
+    "price": 249.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "popular",
+    "features": [
+      "HEPA filtration",
+      "Low noise design",
+      "Energy-efficient",
+      "Multiple attachments"
+    ],
+    "icon": "🧹"
+  },
+  {
+    "id": "005",
+    "name": "Smart Home Hub",
+    "description": "Control all your smart devices from one central hub.",
+    "price": 299.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "popular",
+    "features": [
+      "Voice assistant integration",
+      "Smart lighting control",
+      "Home security system",
+      "Energy monitoring"
+    ],
+    "icon": "🏠"
+  },
+  {
+    "id": "006",
+    "name": "Portable Power Bank 50000mAh",
+    "description": "Keep your devices charged on the go with this massive power bank.",
+    "price": 79.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": [
+      "Fast charging",
+      "LED display",
+      "Universal compatibility",
+      "Lightweight design"
+    ],
+    "icon": "🔋"
+  },
+  {
+    "id": "007",
+    "name": "Smart Air Purifier",
+    "description": "Breathe cleaner air with this smart air purifier that adapts to your room.",
+    "price": 399.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "popular",
+    "features": [
+      "HEPA filtration system",
+      "Real-time air quality monitor",
+      "Quiet operation",
+      "Auto-adjust settings"
+    ],
+    "icon": "🌬️"
+  },
+  {
+    "id": "008",
+    "name": "Wireless Noise Cancelling Headphones",
+    "description": "Enjoy music without distractions with these wireless noise-cancelling headphones.",
+    "price": 199.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Active noise cancellation",
+      "Bluetooth 5.0",
+      "40-hour battery life",
+      "Comfortable ear cups"
+    ],
+    "icon": "🎧"
+  },
+  {
+    "id": "009",
+    "name": "Home Theater System",
+    "description": "Bring the cinema experience to your living room with this immersive sound system.",
+    "price": 599.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": [
+      "Dolby Atmos sound",
+      "Wireless subwoofer",
+      "4K Ultra HD compatibility",
+      "Smart connectivity"
+    ],
+    "icon": "🎥"
+  },
+  {
+    "id": "010",
+    "name": "Electric Scooter X1",
+    "description": "Cruise through the streets in style with this eco-friendly electric scooter.",
+    "price": 499.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "25-mile range",
+      "Dual-brake system",
+      "Foldable design",
+      "LED display"
+    ],
+    "icon": "🛴"
+  }
+]
