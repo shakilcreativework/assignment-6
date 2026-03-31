@@ -2,7 +2,7 @@ import React from 'react';
 import { FaCheck } from "react-icons/fa6";
 
 const Card = ({product}) => {
-    console.log(product);
+    // console.log(product);
     const {name, description, price, period, tag, features, icon} = product;
     // console.log(name);
     return (
