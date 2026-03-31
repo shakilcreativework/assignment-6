@@ -7,6 +7,7 @@ import GradientButton from "./utilities/GradientButton";
 import GradientTextBtn from "./utilities/GradientTextBtn";
 import { IoPlayOutline } from "react-icons/io5";
 import CountSection from "./components/CountSection/CountSection";
+import PremiumTools from "./components/PremiumTools/PremiumTools";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -39,8 +40,8 @@ function App() {
               <h2 className="text-[#101727] font-extrabold text-3xl md:text-4xl lg:text-[72px] md:leading-12 lg:leading-22">Supercharge Your Digital Workflow</h2>
               <p className="text-[#627382] lg:text-[18px]">
                 Access premium AI tools, design assets, templates, and
-                productivity software—all in one place. Start creating faster
-                today. Explore Products
+                productivity <br className="hidden lg:block" /> software—all in one place. Start creating faster
+                today. <br className="hidden lg:block" /> Explore Products
               </p>
               <div className="flex gap-3">
                 <GradientButton name={'Explore Products'} />
@@ -60,6 +61,11 @@ function App() {
         {/* count section */}
         <section className="bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
           <CountSection />
+        </section>
+
+        {/* Premium Digital Tools section */}
+        <section>
+          <PremiumTools />
         </section>
       </main>
 
