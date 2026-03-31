@@ -17,7 +17,7 @@ const PremiumTools = ({ productsData, productBtn, toggleCard }) => {
         </p>
 
         {/* Smooth Toggle Button */}
-        <div className="relative flex w-fit rounded-full border-2 border-gray-100 mx-auto p-1 bg-gray-50 overflow-hidden">
+        <div className="relative flex w-fit rounded-full border-2 border-gray-100 mx-auto p-1 bg-gray-50 overflow-hidden shadow-sm">
 
           {/* Sliding Background */}
           <div
@@ -29,7 +29,7 @@ const PremiumTools = ({ productsData, productBtn, toggleCard }) => {
           {/* Products Button */}
           <button
             onClick={() => productBtn(true)}
-            className={`relative z-10 text-sm md:text-base font-bold py-2.5 lg:py-3 px-6 transition-colors duration-300 ${
+            className={`relative z-10 text-sm md:text-base font-bold py-2.5 lg:py-3 pl-5 pr-6 transition-colors duration-300 ${
               toggleCard ? "text-white" : "text-gray-600"
             }`}
           >
