@@ -22,6 +22,7 @@ function App() {
   // console.log(productsData);
   const [open, setOpen] = useState(false);
   const [toggleCard, setToggleCard] = useState(true);
+  const [addCarts, setAddCarts] = useState([]);
 
   // toggle btn
   const toggleMenu = () => {
@@ -32,13 +33,18 @@ function App() {
   const productBtn = (active) => {
     setToggleCard(active);
   };
-  console.log(toggleCard);
+
+  // add product carts
+  const addCartItems = (product) => {
+    setAddCarts([...addCarts, product]);
+  };
+  // console.log(addCarts);
 
   return (
     <div className="font-manrope">
       {/* header */}
       <header>
-        <Header toggleMenu={toggleMenu} open={open} setOpen={setOpen} />
+        <Header setToggleCard={setToggleCard} addCarts={addCarts} toggleMenu={toggleMenu} open={open} setOpen={setOpen} />
       </header>
 
       {/* main content */}
@@ -54,7 +60,7 @@ function App() {
 
         {/* Premium Digital Tools section */}
         <section>
-          <PremiumTools toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
+          <PremiumTools addCarts={addCarts} addCartItems={addCartItems} toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
         </section>
 
         {/* Get Started in 3 Steps */}

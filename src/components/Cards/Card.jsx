@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCheck } from "react-icons/fa6";
 
-const Card = ({product}) => {
+const Card = ({product, addCartItems}) => {
     // console.log(product);
     const {name, description, price, period, tag, features, icon} = product;
     // console.log(name);
@@ -32,7 +32,7 @@ const Card = ({product}) => {
                     features.map((fea, idx) =>  <span className='flex gap-2 text-sm text-[#627382] items-center' key={idx}><FaCheck className='text-[#30b868]' /> {fea}</span>)
                 } 
                 </p>
-                <button className=' w-full text-sm md:text-base transition-all font-bold text-white py-2.5 lg:py-3 px-4 rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6]'>Buy Now</button>
+                <button onClick={() => addCartItems(product)} className=' w-full text-sm md:text-base transition-all font-bold text-white py-2.5 lg:py-3 px-4 rounded-full bg-linear-to-r from-[#4f39f6] to-[#9514fa] hover:from-[#9514fa] hover:to-[#4f39f6]'>Buy Now</button>
             </div>
         </div>
     );

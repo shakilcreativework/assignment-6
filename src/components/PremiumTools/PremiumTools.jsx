@@ -2,7 +2,8 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import Carts from "../Carts/Carts";
 
-const PremiumTools = ({ productsData, productBtn, toggleCard }) => {
+const PremiumTools = ({ productsData, productBtn, toggleCard, addCartItems, addCarts }) => {
+
   return (
     <div className="max-w-300 mx-auto px-4 lg:px-0 py-15">
       <div className="text-center space-y-5 mb-10">
@@ -43,7 +44,7 @@ const PremiumTools = ({ productsData, productBtn, toggleCard }) => {
               !toggleCard ? "text-white" : "text-gray-600"
             }`}
           >
-            Cart (2)
+            Cart ({addCarts.length})
           </button>
         </div>
       </div>
@@ -51,9 +52,9 @@ const PremiumTools = ({ productsData, productBtn, toggleCard }) => {
       {/* cards */}
       <section>
         {toggleCard ? (
-          <Cards productBtn={productBtn} productsData={productsData} />
+          <Cards addCartItems={addCartItems} productBtn={productBtn} productsData={productsData} />
         ) : (
-          <Carts />
+          <Carts addCarts={addCarts} />
         )}
       </section>
     </div>
