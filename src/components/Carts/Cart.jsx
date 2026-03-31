@@ -11,8 +11,8 @@ const Cart = ({product}) => {
                 <div className='w-16 lg:w-20 h-16 lg:h-20 bg-white rounded-full p-3 md:p-4'>
                     <img src={icon} alt="" />
                 </div> 
-                <div>
-                    <h4 className='text-[#101727] md:text-lg lg:text-xl font-semibold'>{name}</h4>
+                <div className='space-y-1.5'>
+                    <h4 className='text-[#101727] text-sm md:text-base lg:text-lg font-semibold'>{name}</h4>
                     <p className='text-[#627382] font-medium text-sm md:text-base'>$<span>{price}</span></p>
                 </div>
            </div>

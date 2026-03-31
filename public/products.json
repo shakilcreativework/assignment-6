@@ -1,162 +1,162 @@
 [
   {
     "id": "001",
-    "name": "Smartphone Pro X",
-    "description": "The latest smartphone with 5G connectivity and powerful AI features.",
-    "price": 999,
-    "period": "yearly",
+    "name": "AI Content Pro",
+    "description": "Advanced AI-powered tool for generating high-quality content and copywriting.",
+    "price": 29,
+    "period": "monthly",
     "tag": "new",
     "tagType": "popular",
     "features": [
-      "5G connectivity",
-      "AI camera optimization",
-      "6.7-inch OLED display",
-      "128GB storage"
+      "AI blog & article generator",
+      "SEO optimization tools",
+      "Multi-language support",
+      "Content templates"
     ],
-    "icon": "https://i.ibb.co.com/1GvRW3zD/smartphone.png"
+    "icon": "https://i.ibb.co.com/21Rff6Cg/copywriting.png"
   },
   {
     "id": "002",
-    "name": "UltraFit Smartwatch",
-    "description": "Track your health with this feature-packed smartwatch.",
-    "price": 199,
+    "name": "Social Media Scheduler",
+    "description": "Automate and manage all your social media platforms in one place.",
+    "price": 19,
     "period": "monthly",
     "tag": "popular",
     "tagType": "best seller",
     "features": [
-      "Heart rate monitor",
-      "Sleep tracking",
-      "GPS functionality",
-      "Water-resistant"
+      "Post scheduling",
+      "Analytics dashboard",
+      "Multi-platform support",
+      "Auto publishing"
     ],
-    "icon": "https://i.ibb.co.com/H6jq8dt/smartwatch.png"
+    "icon": "https://i.ibb.co.com/TBp3VjRs/schedule.png"
   },
   {
     "id": "003",
-    "name": "Gaming Laptop Elite",
-    "description": "Experience the best in gaming with this high-performance laptop.",
-    "price": 1499,
-    "period": "one-time",
+    "name": "Cloud Storage Pro",
+    "description": "Secure and scalable cloud storage solution for individuals and teams.",
+    "price": 99,
+    "period": "yearly",
     "tag": "best seller",
     "tagType": "popular",
     "features": [
-      "Intel Core i9 Processor",
-      "RTX 3080 GPU",
-      "32GB RAM",
-      "1TB SSD"
+      "1TB secure storage",
+      "File sharing",
+      "Data encryption",
+      "Backup & recovery"
     ],
-    "icon": "https://i.ibb.co.com/mr0ryT0j/computer.png"
+    "icon": "https://i.ibb.co.com/CpSH8M9B/database-file.png"
   },
   {
     "id": "004",
-    "name": "EcoClean Vacuum",
-    "description": "A powerful vacuum cleaner that’s environmentally friendly.",
-    "price": 249,
+    "name": "Project Management Suite",
+    "description": "Organize and track your team’s work efficiently with powerful tools.",
+    "price": 25,
     "period": "monthly",
     "tag": "best seller",
     "tagType": "popular",
     "features": [
-      "HEPA filtration",
-      "Low noise design",
-      "Energy-efficient",
-      "Multiple attachments"
+      "Task management",
+      "Team collaboration",
+      "Kanban boards",
+      "Progress tracking"
     ],
-    "icon": "https://i.ibb.co.com/ychpGRdx/washing.png"
+    "icon": "https://i.ibb.co.com/Myz7vLwK/task-management.png"
   },
   {
     "id": "005",
-    "name": "Smart Home Hub",
-    "description": "Control all your smart devices from one central hub.",
-    "price": 299,
-    "period": "yearly",
-    "tag": "new",
-    "tagType": "popular",
-    "features": [
-      "Voice assistant integration",
-      "Smart lighting control",
-      "Home security system",
-      "Energy monitoring"
-    ],
-    "icon": "https://i.ibb.co.com/N68DKmK4/home.png"
-  },
-  {
-    "id": "006",
-    "name": "Portable Power Bank 50000mAh",
-    "description": "Keep your devices charged on the go with this massive power bank.",
-    "price": 79,
-    "period": "one-time",
-    "tag": "popular",
-    "tagType": "best seller",
-    "features": [
-      "Fast charging",
-      "LED display",
-      "Universal compatibility",
-      "Lightweight design"
-    ],
-    "icon": "https://i.ibb.co.com/GvgCmNJQ/power-bank.png"
-  },
-  {
-    "id": "007",
-    "name": "Smart Air Purifier",
-    "description": "Breathe cleaner air with this smart air purifier that adapts to your room.",
-    "price": 399,
+    "name": "Email Marketing Pro",
+    "description": "Create, send, and analyze email campaigns with ease.",
+    "price": 39,
     "period": "monthly",
     "tag": "new",
     "tagType": "popular",
     "features": [
-      "HEPA filtration system",
-      "Real-time air quality monitor",
-      "Quiet operation",
-      "Auto-adjust settings"
+      "Email templates",
+      "Automation workflows",
+      "Subscriber management",
+      "Campaign analytics"
     ],
-    "icon": "https://i.ibb.co.com/nNgDgWfM/air-purifier.png"
+    "icon": "https://i.ibb.co.com/v6S4hdzd/message.png"
   },
   {
-    "id": "008",
-    "name": "Wireless Noise Cancelling Headphones",
-    "description": "Enjoy music without distractions with these wireless noise-cancelling headphones.",
-    "price": 199,
+    "id": "006",
+    "name": "VPN Secure Plus",
+    "description": "Protect your online privacy with fast and secure VPN services.",
+    "price": 59,
     "period": "yearly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": [
-      "Active noise cancellation",
-      "Bluetooth 5.0",
-      "40-hour battery life",
-      "Comfortable ear cups"
-    ],
-    "icon": "https://i.ibb.co.com/9Hh9qy64/headphones.png"
-  },
-  {
-    "id": "009",
-    "name": "Home Theater System",
-    "description": "Bring the cinema experience to your living room with this immersive sound system.",
-    "price": 599,
-    "period": "one-time",
     "tag": "popular",
     "tagType": "best seller",
     "features": [
-      "Dolby Atmos sound",
-      "Wireless subwoofer",
-      "4K Ultra HD compatibility",
-      "Smart connectivity"
+      "High-speed servers",
+      "No-log policy",
+      "Global access",
+      "Multi-device support"
     ],
-    "icon": "https://i.ibb.co.com/FbG9tV6w/sound-system.png"
+    "icon": "https://i.ibb.co.com/pBMfST0f/vpn.png"
+  },
+  {
+    "id": "007",
+    "name": "Graphic Design Toolkit",
+    "description": "Create stunning visuals with professional design tools.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "popular",
+    "features": [
+      "Drag & drop editor",
+      "Premium templates",
+      "Stock assets",
+      "Brand kit"
+    ],
+    "icon": "https://i.ibb.co.com/G4BGKrqL/toolkit.png"
+  },
+  {
+    "id": "008",
+    "name": "Video Editing Pro",
+    "description": "Edit and produce high-quality videos with advanced tools.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "4K video editing",
+      "Effects & transitions",
+      "Audio editing",
+      "Export presets"
+    ],
+    "icon": "https://i.ibb.co.com/1t0r8WxG/videography.png"
+  },
+  {
+    "id": "009",
+    "name": "Website Builder Pro",
+    "description": "Build professional websites without coding skills.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "best seller",
+    "features": [
+      "Drag & drop builder",
+      "Custom domains",
+      "SEO tools",
+      "Responsive design"
+    ],
+    "icon": "https://i.ibb.co.com/xtq0M3pq/cv-builder.png"
   },
   {
     "id": "010",
-    "name": "Electric Scooter X1",
-    "description": "Cruise through the streets in style with this eco-friendly electric scooter.",
-    "price": 499,
+    "name": "Online Learning Platform",
+    "description": "Access premium courses and improve your skills anytime.",
+    "price": 12,
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
     "features": [
-      "25-mile range",
-      "Dual-brake system",
-      "Foldable design",
-      "LED display"
+      "Video courses",
+      "Certificates",
+      "Expert instructors",
+      "Progress tracking"
     ],
-    "icon": "https://i.ibb.co.com/wN4GwSgY/electric-scooter.png"
+    "icon": "https://i.ibb.co.com/fVB4HjBh/e-learning-platform.png"
   }
 ]
