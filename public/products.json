@@ -3,8 +3,8 @@
     "id": "001",
     "name": "Smartphone Pro X",
     "description": "The latest smartphone with 5G connectivity and powerful AI features.",
-    "price": 999.99,
-    "period": "one-time",
+    "price": 999,
+    "period": "yearly",
     "tag": "new",
     "tagType": "popular",
     "features": [
@@ -13,13 +13,13 @@
       "6.7-inch OLED display",
       "128GB storage"
     ],
-    "icon": "📱"
+    "icon": "https://i.ibb.co.com/1GvRW3zD/smartphone.png"
   },
   {
     "id": "002",
     "name": "UltraFit Smartwatch",
     "description": "Track your health with this feature-packed smartwatch.",
-    "price": 199.99,
+    "price": 199,
     "period": "monthly",
     "tag": "popular",
     "tagType": "best seller",
@@ -29,13 +29,13 @@
       "GPS functionality",
       "Water-resistant"
     ],
-    "icon": "⌚"
+    "icon": "https://i.ibb.co.com/H6jq8dt/smartwatch.png"
   },
   {
     "id": "003",
     "name": "Gaming Laptop Elite",
     "description": "Experience the best in gaming with this high-performance laptop.",
-    "price": 1499.99,
+    "price": 1499,
     "period": "one-time",
     "tag": "best seller",
     "tagType": "popular",
@@ -45,14 +45,14 @@
       "32GB RAM",
       "1TB SSD"
     ],
-    "icon": "💻"
+    "icon": "https://i.ibb.co.com/mr0ryT0j/computer.png"
   },
   {
     "id": "004",
     "name": "EcoClean Vacuum",
     "description": "A powerful vacuum cleaner that’s environmentally friendly.",
-    "price": 249.99,
-    "period": "one-time",
+    "price": 249,
+    "period": "monthly",
     "tag": "best seller",
     "tagType": "popular",
     "features": [
@@ -61,14 +61,14 @@
       "Energy-efficient",
       "Multiple attachments"
     ],
-    "icon": "🧹"
+    "icon": "https://i.ibb.co.com/ychpGRdx/washing.png"
   },
   {
     "id": "005",
     "name": "Smart Home Hub",
     "description": "Control all your smart devices from one central hub.",
-    "price": 299.99,
-    "period": "one-time",
+    "price": 299,
+    "period": "yearly",
     "tag": "new",
     "tagType": "popular",
     "features": [
@@ -77,13 +77,13 @@
       "Home security system",
       "Energy monitoring"
     ],
-    "icon": "🏠"
+    "icon": "https://i.ibb.co.com/N68DKmK4/home.png"
   },
   {
     "id": "006",
     "name": "Portable Power Bank 50000mAh",
     "description": "Keep your devices charged on the go with this massive power bank.",
-    "price": 79.99,
+    "price": 79,
     "period": "one-time",
     "tag": "popular",
     "tagType": "best seller",
@@ -93,14 +93,14 @@
       "Universal compatibility",
       "Lightweight design"
     ],
-    "icon": "🔋"
+    "icon": "https://i.ibb.co.com/GvgCmNJQ/power-bank.png"
   },
   {
     "id": "007",
     "name": "Smart Air Purifier",
     "description": "Breathe cleaner air with this smart air purifier that adapts to your room.",
-    "price": 399.99,
-    "period": "one-time",
+    "price": 399,
+    "period": "monthly",
     "tag": "new",
     "tagType": "popular",
     "features": [
@@ -109,14 +109,14 @@
       "Quiet operation",
       "Auto-adjust settings"
     ],
-    "icon": "🌬️"
+    "icon": "https://i.ibb.co.com/nNgDgWfM/air-purifier.png"
   },
   {
     "id": "008",
     "name": "Wireless Noise Cancelling Headphones",
     "description": "Enjoy music without distractions with these wireless noise-cancelling headphones.",
-    "price": 199.99,
-    "period": "one-time",
+    "price": 199,
+    "period": "yearly",
     "tag": "best seller",
     "tagType": "best seller",
     "features": [
@@ -125,13 +125,13 @@
       "40-hour battery life",
       "Comfortable ear cups"
     ],
-    "icon": "🎧"
+    "icon": "https://i.ibb.co.com/9Hh9qy64/headphones.png"
   },
   {
     "id": "009",
     "name": "Home Theater System",
     "description": "Bring the cinema experience to your living room with this immersive sound system.",
-    "price": 599.99,
+    "price": 599,
     "period": "one-time",
     "tag": "popular",
     "tagType": "best seller",
@@ -141,14 +141,14 @@
       "4K Ultra HD compatibility",
       "Smart connectivity"
     ],
-    "icon": "🎥"
+    "icon": "https://i.ibb.co.com/FbG9tV6w/sound-system.png"
   },
   {
     "id": "010",
     "name": "Electric Scooter X1",
     "description": "Cruise through the streets in style with this eco-friendly electric scooter.",
-    "price": 499.99,
-    "period": "one-time",
+    "price": 499,
+    "period": "monthly",
     "tag": "new",
     "tagType": "new",
     "features": [
@@ -157,6 +157,6 @@
       "Foldable design",
       "LED display"
     ],
-    "icon": "🛴"
+    "icon": "https://i.ibb.co.com/wN4GwSgY/electric-scooter.png"
   }
 ]

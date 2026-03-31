@@ -1,9 +1,11 @@
 import React from "react";
+import Cards from "../Cards/Cards";
 
-const PremiumTools = () => {
+const PremiumTools = ({productsData}) => {
+    // console.log(productsData);
   return (
     <div className="max-w-300 mx-auto px-4 lg:px-0 py-15">
-      <div className="text-center space-y-4">
+      <div className="text-center space-y-4 mb-10">
         <h2 className=" text-3xl md:text-4xl lg:text-5xl font-extrabold text-[#101727]">
           Premium Digital Tools
         </h2>
@@ -22,6 +24,10 @@ const PremiumTools = () => {
           </div>
         </div>
       </div>
+      {/* cards */}
+      <section>
+            <Cards productsData={productsData} />
+      </section>
     </div>
   );
 };

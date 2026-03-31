@@ -25,7 +25,7 @@ const Header = ({toggleMenu, open}) => {
             className={`bg-gray-50 md:bg-transparent p-4 flex flex-col md:flex-row 
              ${open ? "top-18 delay-1000 transition ease-in-out" : "-top-60"}
              ease-in-out 
-             md:top-0 left-4 md:left-0 items-center gap-5 absolute md:relative`}
+             md:top-0 left-4 md:left-0 items-center gap-5 rounded absolute md:relative`}
           >
             <li className="list-none">
               <a className="text-[#101727] font-semibold" href="">

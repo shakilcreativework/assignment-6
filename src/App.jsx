@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { use, useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -9,7 +9,17 @@ import { IoPlayOutline } from "react-icons/io5";
 import CountSection from "./components/CountSection/CountSection";
 import PremiumTools from "./components/PremiumTools/PremiumTools";
 
+// load premium tools data
+const premiumTools = async () => {
+  const res = await fetch("/products.json");
+  return res.json();
+};
+
+const productsPromise = premiumTools();
+
 function App() {
+  const productsData = use(productsPromise);
+  // console.log(productsData);
   const [open, setOpen] = useState(false);
 
   // toggle btn
@@ -65,7 +75,7 @@ function App() {
 
         {/* Premium Digital Tools section */}
         <section>
-          <PremiumTools />
+          <PremiumTools productsData={productsData} />
         </section>
       </main>
 
