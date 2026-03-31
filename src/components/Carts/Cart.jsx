@@ -1,9 +1,18 @@
 import React from 'react';
 import { RiDeleteBin6Fill } from "react-icons/ri";
+import { toast } from 'react-toastify';
 
-const Cart = ({product}) => {
-    // console.log(addCarts);
+const Cart = ({product, setAddCarts, addCarts}) => {
+    // console.log(typeof product, typeof setAddCarts);
     const {name, price, icon} = product;
+
+    // remove tools from carts page
+    const removeTool = (passTool) => {
+        const filterToolToRemove = addCarts.filter(tool => tool.id !== passTool.id);
+        setAddCarts(filterToolToRemove);
+        toast(`Tool removed from your cart 🛒
+            ${passTool.name}`);
+    };
 
     return (
         <div className='flex justify-between items-center gap-3 md:gap-4 bg-[#f9fafc] p-4 md:p-5 lg:p-6 rounded-lg'>
@@ -16,7 +25,7 @@ const Cart = ({product}) => {
                     <p className='text-[#627382] font-medium text-sm md:text-base'>$<span>{price}</span></p>
                 </div>
            </div>
-           <button className='text-[#ff3980] font-bold text-2xl cursor-pointer'><RiDeleteBin6Fill /></button>
+           <button onClick={() => removeTool(product)} className='text-[#ff3980] font-bold text-2xl cursor-pointer'><RiDeleteBin6Fill /></button>
         </div>
     );
 };

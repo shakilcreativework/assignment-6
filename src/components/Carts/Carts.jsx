@@ -23,7 +23,7 @@ const Carts = ({ addCarts, setAddCarts, setToggleCard }) => {
           </h3>
           <div className="space-y-4">
             {addCarts.map((product, idx) => (
-              <Cart key={idx} product={product} />
+              <Cart key={idx} addCarts={addCarts} setAddCarts={setAddCarts} product={product} />
             ))}
           </div>
           <div className="flex justify-between items-center mt-6">
