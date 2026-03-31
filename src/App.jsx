@@ -6,6 +6,7 @@ import { IoMdRadioButtonOn } from "react-icons/io";
 import GradientButton from "./utilities/GradientButton";
 import GradientTextBtn from "./utilities/GradientTextBtn";
 import { IoPlayOutline } from "react-icons/io5";
+import CountSection from "./components/CountSection/CountSection";
 
 function App() {
   const [open, setOpen] = useState(false);
@@ -54,6 +55,11 @@ function App() {
               />
             </div>
           </div>
+        </section>
+
+        {/* count section */}
+        <section className="bg-linear-to-r from-[#4f39f6] to-[#9514fa]">
+          <CountSection />
         </section>
       </main>
 
