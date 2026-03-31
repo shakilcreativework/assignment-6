@@ -2,7 +2,7 @@ import React from "react";
 import Cards from "../Cards/Cards";
 import Carts from "../Carts/Carts";
 
-const PremiumTools = ({ productsData, productBtn, toggleCard, addCartItems, addCarts }) => {
+const PremiumTools = ({ productsData, productBtn, toggleCard, addCartItems, addCarts, setAddCarts, setToggleCard }) => {
 
   return (
     <div className="max-w-300 mx-auto px-4 lg:px-0 py-15">
@@ -54,7 +54,7 @@ const PremiumTools = ({ productsData, productBtn, toggleCard, addCartItems, addC
         {toggleCard ? (
           <Cards addCartItems={addCartItems} productBtn={productBtn} productsData={productsData} />
         ) : (
-          <Carts addCarts={addCarts} />
+          <Carts setToggleCard={setToggleCard} setAddCarts={setAddCarts} addCarts={addCarts} />
         )}
       </section>
     </div>

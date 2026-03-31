@@ -1,8 +1,13 @@
 import React from 'react';
 import GradientButton from '../../utilities/GradientButton';
 import { Menu, X, ShoppingCart } from "lucide-react";
+import { toast } from 'react-toastify';
 
 const Header = ({toggleMenu, open, addCarts, setToggleCard}) => {
+  const allToolsInCarts = () => {
+    setToggleCard(false)
+    toast('Let’s check your cart 🛍️');
+  };
     return (
         <div className="max-w-300 mx-auto flex justify-between items-center gap-3 py-6 px-4 lg:px-0 z-10">
           <div className="flex">
@@ -54,7 +59,7 @@ const Header = ({toggleMenu, open, addCarts, setToggleCard}) => {
             </li>
           </nav>
           <div className="flex justify-between items-center gap-4">
-            <div onClick={() => setToggleCard(false)} className="relative">
+            <div onClick={() => allToolsInCarts()} className="relative">
               {addCarts.length <= 0 ?
                   ''
                   :

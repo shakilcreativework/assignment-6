@@ -8,6 +8,7 @@ import Workflow from "./components/Workflow/Workflow";
 import GetStartedSteps from "./components/GetStartedSteps/GetStartedSteps";
 import HeroContent from "./components/HeroContent/HeroContent";
 import SimplePricing from "./components/SimplePricing/SimplePricing";
+import { toast, ToastContainer } from 'react-toastify';
 
 // load premium tools data
 const premiumTools = async () => {
@@ -37,9 +38,11 @@ function App() {
   // add product carts
   const addCartItems = (product) => {
     if(addCarts.some(match => match.id === product.id)){
+      toast('This item is already in your cart 🎉😄');
       return;
     }else{
       setAddCarts([...addCarts, product]);
+      toast('Added to your cart successfully 🛒✨');
     }
   };
 
@@ -63,7 +66,7 @@ function App() {
 
         {/* Premium Digital Tools section */}
         <section>
-          <PremiumTools addCarts={addCarts} addCartItems={addCartItems} toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
+          <PremiumTools setToggleCard={setToggleCard} setAddCarts={setAddCarts} addCarts={addCarts} addCartItems={addCartItems} toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
         </section>
 
         {/* Get Started in 3 Steps */}
@@ -86,6 +89,8 @@ function App() {
       <footer className="bg-[#101727]">
         <Footer />
       </footer>
+
+      <ToastContainer />
     </div>
   );
 }
