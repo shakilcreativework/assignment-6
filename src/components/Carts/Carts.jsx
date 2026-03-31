@@ -1,9 +1,11 @@
 import React from 'react';
+import Cart from './Cart';
 
 const Carts = () => {
     return (
-        <div>
-            carts
+        <div className='border-2 border-gray-100 p-3 md:p-5 lg:p-6 rounded-lg'>
+            <h3 className=' text-xl lg:text-2xl font-bold text-[#101727] mb-6'>Your Cart</h3>
+            <Cart />
         </div>
     );
 };

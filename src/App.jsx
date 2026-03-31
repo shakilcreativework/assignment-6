@@ -21,11 +21,18 @@ function App() {
   const productsData = use(productsPromise);
   // console.log(productsData);
   const [open, setOpen] = useState(false);
+  const [toggleCard, setToggleCard] = useState(true);
 
   // toggle btn
   const toggleMenu = () => {
     setOpen(!open);
   };
+
+  // show product toggle function
+  const productBtn = (active) => {
+    setToggleCard(active);
+  };
+  console.log(toggleCard);
 
   return (
     <div className="font-manrope">
@@ -47,7 +54,7 @@ function App() {
 
         {/* Premium Digital Tools section */}
         <section>
-          <PremiumTools productsData={productsData} />
+          <PremiumTools toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
         </section>
 
         {/* Get Started in 3 Steps */}
