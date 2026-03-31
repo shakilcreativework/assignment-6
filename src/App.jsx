@@ -36,9 +36,12 @@ function App() {
 
   // add product carts
   const addCartItems = (product) => {
-    setAddCarts([...addCarts, product]);
+    if(addCarts.some(match => match.id === product.id)){
+      return;
+    }else{
+      setAddCarts([...addCarts, product]);
+    }
   };
-  // console.log(addCarts);
 
   return (
     <div className="font-manrope">
