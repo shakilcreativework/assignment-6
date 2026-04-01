@@ -31,4 +31,4 @@ A powerful and intuitive platform to manage and explore digital tools efficientl
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/yourusername/digitools.git
+git clone https://github.com/shakilcreativework/assignment-6.git
