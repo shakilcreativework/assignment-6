@@ -1,16 +1,34 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A powerful and intuitive platform to manage and explore digital tools efficiently. Designed for smooth user experience, fast interactions, and modern UI.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Technologies Used
 
-## React Compiler
+- **React.js** – For building dynamic and interactive user interfaces  
+- **Tailwind CSS** – For responsive and modern styling  
+- **JavaScript (ES6+)** – Core scripting and logic  
+- **React-Toastify (NPM Package)** – For toast notifications  
+- **JSON** – For storing product data  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Add to Cart with Feedback**  
+   Click a product to add it to your cart, with a real-time toast notification and a checkmark icon for visual confirmation.
+
+2. **Smart Button Reset**  
+   Buttons automatically reset after a few seconds using timeout management, providing a smooth user experience even with multiple clicks.
+
+3. **Responsive and Interactive UI**  
+   Built with Tailwind CSS, the interface adapts beautifully to any device, with animations and modern design elements.  
+
+---
+
+## 📌 How to Run
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/yourusername/digitools.git
