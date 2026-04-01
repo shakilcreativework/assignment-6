@@ -1,4 +1,4 @@
-import { use, useState } from "react";
+import { use, useRef, useState } from "react";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -25,6 +25,7 @@ function App() {
   const [toggleCard, setToggleCard] = useState(true);
   const [addCarts, setAddCarts] = useState([]);
   const [activeBtn, setActiveBtn] = useState(null);
+  const timeoutCheck = useRef(null);
 
   // toggle btn
   const toggleMenu = () => {
@@ -46,7 +47,13 @@ function App() {
       toast('Added to your cart successfully 🛒✨');
       setActiveBtn(product.id);
 
-      setTimeout(() => {
+      // clean old timeout if before click on any button or run timeout
+      if(timeoutCheck.current){
+        clearTimeout(timeoutCheck.current);
+      }
+
+      // add new set timeout when click new button
+      timeoutCheck.current = setTimeout(() => {
         setActiveBtn(null);
       }, 3000);
     }
