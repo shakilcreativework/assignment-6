@@ -24,6 +24,7 @@ function App() {
   const [open, setOpen] = useState(false);
   const [toggleCard, setToggleCard] = useState(true);
   const [addCarts, setAddCarts] = useState([]);
+  const [activeBtn, setActiveBtn] = useState(null);
 
   // toggle btn
   const toggleMenu = () => {
@@ -43,8 +44,14 @@ function App() {
     }else{
       setAddCarts([...addCarts, product]);
       toast('Added to your cart successfully 🛒✨');
+      setActiveBtn(product.id);
+
+      setTimeout(() => {
+        setActiveBtn(null);
+      }, 3000);
     }
   };
+  // console.log(activeBtn);
 
   return (
     <div className="font-manrope">
@@ -66,7 +73,7 @@ function App() {
 
         {/* Premium Digital Tools section */}
         <section>
-          <PremiumTools setToggleCard={setToggleCard} setAddCarts={setAddCarts} addCarts={addCarts} addCartItems={addCartItems} toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
+          <PremiumTools activeBtn={activeBtn} setToggleCard={setToggleCard} setAddCarts={setAddCarts} addCarts={addCarts} addCartItems={addCartItems} toggleCard={toggleCard} productBtn={productBtn} productsData={productsData} />
         </section>
 
         {/* Get Started in 3 Steps */}
